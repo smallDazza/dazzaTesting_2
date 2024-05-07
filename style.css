@@ -1,0 +1,9 @@
+/* Default styles for small screens and anything not caught by media */
+body{
+    background-color: aqua;
+}
+/*Styled for scrrens 600px wide and larger*/
+@media screen and (min-width: 600px) {
+    body{ background-color: yellow;}
+}
+
