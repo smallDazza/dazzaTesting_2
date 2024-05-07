@@ -15,13 +15,13 @@ body{
   }
 
 /* Create three equal columns that float next to each other */
-.column {
+ .column {
     float: left;
     width: 33.33%;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+ .row:after {
     content: "";
     display: table;
     clear: both;
