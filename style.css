@@ -6,30 +6,60 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+@media screen and (max-width: 600px) {
+  body{ background-color: yellow;}
+}
+
+header{
+  display: flex;
+}
+
+.logo{
+  max-width: 25vw;
+  max-height: 25vh;
+  border: 5px solid black;
+  border-radius: 20%;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
 /*Styled for scrrens 600px wide and larger*/
 
 /* .column{
     width: 100%
 } */
-
+/* h1{
+  display: inline;
+  background-color: beige;
+} */
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-    body{ background-color: yellow;}
-  }
+
 
 /* Create three equal columns that float next to each other */
-.column {
+/* .column {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     width: 33.33%;
-  }
+  } */
   
   /* Clear floats after the columns */
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
+
+header{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   
   
